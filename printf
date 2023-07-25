@@ -50,9 +50,3 @@ int _printf(const char *format, ...)
   va_end(args);
   return count;
 }
-
-int main()
-{
-  _printf("Hello, %s! My favorite letter is %c. %%\n", "Alice", 'G');
-  return 0;
-}
